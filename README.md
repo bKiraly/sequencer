@@ -20,7 +20,7 @@ await seq([
   () => sleep(1).then(() => acc.push(3)),
 ]);
 
-console.log(seq); // > [ 1, 2, 3 ]
+console.log(acc); // > [ 1, 2, 3 ]
 ```
 
 ## Test
